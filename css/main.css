@@ -717,12 +717,13 @@ hr {
 }
 
 @media(max-width:1120px) {
-    .stages-top{
+    .stages-top {
         width: 309.17px;
         height: 785.5px;
         top: -100px;
         left: -250px;
     }
+
     .stages-img {
         width: 137px;
         height: 201px;
@@ -763,12 +764,13 @@ hr {
 }
 
 @media(max-width:880px) {
-    .stages-top{
+    .stages-top {
         width: 259.17px;
         height: 705.5px;
         top: -90px;
         left: -250px;
     }
+
     .stages-img {
         width: 100px;
         height: 170px;
@@ -777,12 +779,13 @@ hr {
 }
 
 @media(max-width:750px) {
-    .stages-top{
+    .stages-top {
         width: 259.17px;
         height: 705.5px;
         top: -90px;
         left: -300px;
     }
+
     .stages-img {
         width: 100px;
         height: 170px;
@@ -847,12 +850,14 @@ hr {
         display: flex;
         flex-direction: column;
     }
-    .stages-top{
+
+    .stages-top {
         width: 200.17px;
         height: 705.5px;
         top: -90px;
         left: -300px;
     }
+
     .stages-img {
         width: 80px;
         height: 150px;
@@ -875,3 +880,240 @@ hr {
         font-weight: 600;
     }
 }
+
+/* Form style */
+.form {
+    padding-top: 84px;
+    padding-bottom: 61px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.form-container {
+    max-width: 1529px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-title {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 102px;
+    text-align: left;
+    max-width: 814px;
+    margin-bottom: 28px;
+    color: #000000;
+    z-index: 3;
+}
+
+.form-subtitle {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 47.5px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 29px;
+    z-index: 3;
+}
+
+.form-text {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 28.5px;
+    text-align: left;
+    color: #000000;
+    z-index: 3;
+
+}
+
+label {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 23.25px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #000000;
+    z-index: 3;
+}
+
+input {
+    width: 536px;
+    height: 62px;
+    border-radius: 13px;
+    opacity: 0px;
+    border: 2px solid #DADADA;
+    outline: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 33px;
+    margin-top: 10px;
+    padding: 0 15px;
+    z-index: 3;
+}
+
+.form-btn {
+    width: 319px;
+    height: 78px;
+    border-radius: 24px;
+    background-color: #000000;
+    box-shadow: -4px -4px 0px 0px #00000040 inset;
+    font-family: 'HelveticaNeueCyr',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    z-index: 3;
+    cursor: pointer;
+}
+.form-btn:hover{
+    opacity: 0.8;
+}
+
+.form-img{
+    width: 363px;
+    height: 417px;
+    position: absolute;
+    left: 779px;
+    top: 25px;
+    z-index: 1;
+}
+
+@media(max-width:1834px) {
+    .form-img{
+        left: 750px;
+        top: 25px;
+    }
+}
+@media(max-width:1753px) {
+    .form-img{
+        left: 700px;
+        top: 25px;
+    }
+}
+@media(max-width:1500px) {
+    .form-img{
+        left: 500px;
+        top: 25px;
+    }
+}
+@media(max-width:1350px) {
+    .form-img{
+        left: 450px;
+        top: 150px;
+        width: 263px;
+        height: 317px;
+    }
+}
+@media (max-width:1150px) {
+    .form{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .form-title{
+        max-width: 500px;
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .form-subtitle{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .form-text{
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .form-img{
+        left: 400px;
+        top: 150px;
+        width: 180px;
+        height: 230px;
+    }
+}
+@media (max-width:1050px) {
+    .form-container{
+        flex-direction: column;
+        align-items: start;
+    }
+    .form-text{
+        margin-bottom: 40px;
+    }
+    .form-img{
+        width: 363px;
+        height: 417px;
+        left: 650px;
+        top: 25px;
+    }
+}
+ @media(max-width:780px) {
+    .form-title{
+        font-size: 80px;
+        line-height: 80px;
+        margin-bottom: 20px;
+    }
+    .form-subtitle{
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .form-text{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .form-img{
+        width: 363px;
+        height: 417px;
+        left: 450px;
+        top: 25px;
+    }
+    label{
+        font-size: 18px;
+    }
+    input{
+        margin-bottom: 20px;
+    }
+
+ }
+ @media (max-width:550px) {
+    .form-title{
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+    .form-img{
+        width: 163px;
+        height: 217px;
+        left: 350px;
+        top: 25px;
+    }
+
+    input{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+    .form-btn{
+        width: 100%;
+    }
+ }
+
+ @media(max-width:420px) {
+    .form-img{
+        width: 163px;
+        height: 217px;
+        left: 250px;
+        top: 25px;
+    }
+ }
+   
